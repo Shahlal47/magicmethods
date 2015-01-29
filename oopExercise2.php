@@ -17,28 +17,28 @@ function __autoload($class_name)
 $bkiict = new Bkiict();
 //echo $bkiict;
 //var_dump($bkiict);
-echo "<br>";
-echo $bkiict->fullNmae;
-echo "<br>";
+//echo "<br>";
+//echo $bkiict->fullNmae;
+//echo "<br>";
 
 
 $student = new Student();
 //echo $student;
 //var_dump($student);
-echo "<br>";
+//echo "<br>";
 
 
 $course = new Course();
-echo $course->title;
+//echo $course->title;
 echo "<br>";
 $course->title = 'Course Title';
-echo $course->title;
-echo "<br>";
-//var_dump($course);
+//echo $course->title;
+//echo "<br>";
+////var_dump($course);
 
 
-$course->getCredits();
-echo "<br>";
-$course->getLessons();
+//$course->getCredits();
+//echo "<br>";
+//$course->getLessons();
 
 //var_dump($course);
